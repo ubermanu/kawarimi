@@ -1,0 +1,40 @@
+{
+  "name": "kawarimi",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A function that removes an HTML element but keeps the tab position",
+  "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ubermanu/kawarimi"
+  },
+  "keywords": [
+    "kawarimi",
+    "tabindex",
+    "position",
+    "a11y",
+    "accessibility"
+  ],
+  "main": "dist/kawarimi.cjs",
+  "module": "dist/kawarimi.mjs",
+  "unpkg": "dist/kawarimi.umd.js",
+  "jsdelivr": "dist/kawarimi.umd.js",
+  "types": "types/main.d.mts",
+  "files": [
+    "dist/*",
+    "types/*"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build",
+    "test": "uvu tests"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.2.0",
+    "@ubermanu/eslint-config": "^1.2.0",
+    "eslint": "^8.29.0",
+    "rollup": "^3.7.2",
+    "uvu": "^0.5.6"
+  }
+}
