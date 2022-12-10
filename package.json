@@ -16,6 +16,14 @@
     "a11y",
     "accessibility"
   ],
+  "exports": {
+    ".": {
+      "require": "./dist/kawarimi.cjs",
+      "import": "./dist/kawarimi.mjs",
+      "default": "./dist/kawarimi.umd.js"
+    },
+    "./package.json": "./package.json"
+  },
   "main": "dist/kawarimi.cjs",
   "module": "dist/kawarimi.mjs",
   "unpkg": "dist/kawarimi.umd.js",
