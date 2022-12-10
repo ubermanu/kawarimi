@@ -1,7 +1,7 @@
 {
   "name": "kawarimi",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A function that removes an HTML element but keeps the tab position",
   "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
   "license": "MIT",
