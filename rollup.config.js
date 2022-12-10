@@ -16,7 +16,7 @@ export default [
       {
         file: pkg.unpkg,
         format: 'umd',
-        name: 'arrosoir',
+        name: 'kawarimi',
       },
     ],
     // plugins: [terser()],
